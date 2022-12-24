@@ -37,19 +37,20 @@ p {
 }
 
 .c1 {
+    position: relative;
     display: flex   ;
     justify-content: center;
     border: 2px solid black;
     padding: 3px;
     background-color: #D99CA1;
     margin-top: -3px;
-    width: 30%;
-    margin-left: 68%;
-    font-size: 12px;
-    
+    width: 130px;
+    margin-left: auto;
+    font-size: 12px;    
 }
  
 .b1{
+    position: relative;
     display: flex;
     justify-content: center;
     border: 2px solid black;
@@ -57,20 +58,29 @@ p {
     background-color: #BF4545;
     color: white;
     margin-top: -3px;
-    width: 30%;
-    margin-left: 68%;
+    width: 130px;
+    margin-left: auto;
     font-size: 12px;
 }
 .s1{
+    position: relative;
     display: flex;
     justify-content: center;
     border: 2px solid black;
     padding: 3px;
     background-color: #D9C091;
     margin-top: -3px;
-    width: 30%;
-    margin-left: 68%;
+    width: 130px;
+    margin-left: auto;
     font-size: 12px;
 }
 
+background: black;
+color: #bbb;
+display: block;
+padding: 0.4rem 0.6rem;
+width: 7rem;
+margin-left: auto;
+position: relative;
+z-index: 5;
 
